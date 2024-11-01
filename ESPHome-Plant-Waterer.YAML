@@ -48,6 +48,7 @@ sensor:
     id:  soil_moisture
     accuracy_decimals: 0
     unit_of_measurement: "%"
+    device_class: moisture
     update_interval: 10s
     icon: mdi:flower
     filters:
